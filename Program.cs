@@ -19,7 +19,12 @@
             }
             Random rnd = new Random();
             int secilen = rnd.Next(0,eklenecekOgrenciSayisi);
+            Console.WriteLine("Rastgele SEçim Yapmak İçin Entere Basınız");
+            Console.ReadLine();
             Console.WriteLine("Rastgele Seçilen Öğrenci :{0} {1}", ogrenciAdi[secilen], ogrenciSoyadi[secilen]);
+
+
+
         }
     }
 }
